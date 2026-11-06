@@ -1,0 +1,12 @@
+{
+  "name": "quality-ai-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env local-server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^3.0.0"
+  }
+}
